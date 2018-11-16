@@ -1,0 +1,191 @@
+html {
+font:normal 100%/1.2em "Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
+height:100%;
+}
+
+fieldset {
+ 		display:block;
+ 		width:50%;
+		border: 1px dotted #353535;
+		padding:2px;
+ 		overflow:hidden;                   
+}
+
+label {
+	background:transparent none;
+	display: block;
+	width: 20%;
+	float: left;
+	padding-right: 1%;
+	text-align: left;
+}
+
+input {
+	margin-left: 1%;
+	width: 30%;
+	border: #CCC 1px solid;
+}
+
+input:hover, #ent input:focus {
+	border: #999 1px solid;
+	background-color: #DDEEFF;
+}
+
+input[type="submit"]
+{
+	border: #DDEEFF 1px solid;
+	width: 30%;
+}
+
+body{
+	background: #fff;
+	height:100%;
+  	position: relative;
+  	margin-top: 15px;
+  	margin-right: 15px;
+}
+
+
+
+
+.erreur{ 
+   background-color:rgb(237,210,229);
+   color:rgb(203,28,128);
+   font-size:1.1em;
+   width:95%;
+}
+.message{ 
+   background-color:rgb(99, 184, 255);
+   color:rgb(0,0,205);
+   font-size:1.1em;
+   width:95%;
+}
+
+#bandeau {
+}
+
+#menu{
+height: 1.8em ;
+}
+
+#categories{
+float:left;
+}
+
+#produits{
+padding:0 150px;
+}
+
+#contenu{
+
+}
+
+#menu li {
+	margin-top: 8%;
+	list-style-type: none;
+	list-style-image:none;
+	float: left;
+	position: relative;
+	left: 27%;
+	text-align: center;
+	width: 150px ; 
+    border: 1px solid #600 ;
+    border-style: double;
+    border-color: #eee;
+    border-width: 5px;
+    border-radius: 5px; 
+    margin-right: 1px ;
+    padding: 3px; 
+    color: #fff ; 
+    background: #00BFFF;
+    font-family: "Snell Roundhand", cursive;
+
+}
+
+#menu li a {
+		text-decoration:none;
+		color :#000;
+}
+
+#menu li:hover{
+	background: white;
+}
+
+#menu li a:hover{
+	color:#00BFFF;
+}
+
+
+
+#logo{
+	position : absolute;
+	top: -50;
+	left: 10;
+}
+
+#pied li{
+ 	list-style-type: none;
+	list-style-image:none;
+	margin-top: 60%;
+	float: left;
+	text-align: center;
+	width: 90px ; 
+    border: 1px solid #600 ;
+    border-style: double;
+    border-color: #eee;
+    border-width: 5px;
+    border-radius: 50px; 
+    margin-right: 1px ;
+    padding: 3px;
+    color: #fff ; 
+    background: #00BFFF;
+    font-family: "Snell Roundhand", cursive;
+}
+
+#pied li a {
+		text-decoration:none;
+		color :#000;
+}
+
+#pied li:hover{
+	background: white;
+}
+
+#pied li a:hover{
+	color:#00BFFF;
+}
+
+
+#login li {
+	list-style-type: none;
+	list-style-image:none;
+	float: right;
+	position: absolute;
+	top:0;
+	right: 0;
+	text-align: center;
+	width: 105px ; 
+    border: 1px solid #600 ;
+    border-style: double;
+    border-color: #eee;
+    border-width: 5px;
+    border-radius: 50px; 
+    margin-right: 1px ;
+    padding: 3px;
+    color: #fff ; 
+    background: #00BFFF;
+    font-family: "Snell Roundhand", cursive;
+}
+
+#login li a {
+		text-decoration:none;
+		color :#000;
+}
+
+#login li:hover{
+	background:#EFD807	;
+}
+
+#login li a:hover{
+	color:#FFF;
+}
